@@ -1,5 +1,5 @@
-import {vimeoEmbed,aspectRatio,loopBackground} from './vimeo.js';
-import {loadProjects,el,asset} from './data.js';
+import {vimeoEmbed,aspectRatio,loopBackground} from './vimeo.js?v=24';
+import {loadProjects,el,asset} from './data.js?v=24';
 const main=document.querySelector('#projects'), svg=document.querySelector('#connections');
 const selected={formats:'',inquiries:''};let projects=[],pending=false;
 const buttons={formats:new Map(),inquiries:new Map()};
@@ -16,7 +16,7 @@ function render(){
   const frame=el('div','project-visual video-cover');frame.style.aspectRatio=aspectRatio(p.videoAspectRatio);frame.style.setProperty('--video-ratio',aspectRatio(p.videoAspectRatio));
   img.className='cover-poster';if(matchMedia('(prefers-reduced-motion: reduce)').matches)frame.append(img);
   if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
-   const video=el('iframe','cover-player');video.src=vimeoEmbed(p.coverVideo,true);video.title=p.title+' — silent preview';video.allow='autoplay; fullscreen; picture-in-picture';video.tabIndex=-1;video.setAttribute('aria-hidden','true');video.loading='eager';video.dataset.duration=p.coverVideoDuration||'';loopBackground(video);frame.append(video);
+   const video=el('iframe','cover-player');video.src=vimeoEmbed(p.coverVideo,true);const sourceRatio=aspectRatio(p.coverVideoAspectRatio||p.videoAspectRatio).split('/').map(Number);const height=Math.max(1,(ratio[0]/ratio[1])/(sourceRatio[0]/sourceRatio[1]));video.style.height=(height*100)+'%';video.style.top=((1-height)*50)+'%';video.title=p.title+' — silent preview';video.allow='autoplay; fullscreen; picture-in-picture';video.tabIndex=-1;video.setAttribute('aria-hidden','true');video.loading=main.children.length?'lazy':'eager';video.dataset.duration=p.coverVideoDuration||'';loopBackground(video);frame.append(video);
   }
   visual=frame;
  }

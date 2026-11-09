@@ -96,3 +96,36 @@
 .exhibition-poster{margin:0}
 .poster-grid img{display:block;width:100%;height:auto;margin:0;border:0}
 @media(max-width:700px){.poster-grid{grid-template-columns:1fr;gap:40px;margin-top:38px;padding-bottom:50px}}
+
+/* Project documentation: quiet home link, left text, generous right media. */
+.project-page .corner.home{color:var(--muted);background:transparent}
+#project-detail.detail{max-width:none;margin:0;padding:110px 32px 64px;display:grid;grid-template-columns:minmax(240px,29%) minmax(0,1fr);gap:5vw;align-items:start}
+#project-detail .project-info{position:sticky;top:110px;max-height:calc(100svh - 140px);overflow-y:auto;scrollbar-width:thin;padding-right:8px}
+#project-detail h1{font-size:clamp(26px,2.5vw,40px);line-height:1.1;margin:0 0 18px;overflow-wrap:anywhere}
+#project-detail .year{margin:0 0 10px;font-size:14px}
+#project-detail .credits{font-size:14px;line-height:1.5;margin:0 0 12px}
+#project-detail .project-facts{margin:0 0 16px}
+#project-detail .description{font-size:16px;line-height:1.55;margin:48px 0 0;max-width:none}
+.project-media{min-width:0;display:flex;flex-direction:column;gap:32px}
+#project-detail .project-media>img,#project-detail .project-media>video,#project-detail .project-media>.video-embed{width:100%;height:auto;margin:0;display:block}
+#project-detail .project-media>.video-embed{height:auto;flex-shrink:0}
+@media(max-width:700px){
+ #project-detail.detail{display:block;padding:95px 20px 40px}
+ #project-detail .project-info{position:static;max-height:none;overflow:visible;padding:0;margin-bottom:36px}
+ #project-detail .description{margin-top:28px}
+ .project-media{gap:20px}
+}
+
+/* Balance the left project column against the scrolling documentation. */
+@media(min-width:701px){
+ #project-detail .project-info{height:calc(100svh - 142px);max-height:calc(100svh - 142px);display:flex;flex-direction:column;justify-content:safe flex-end}
+ #project-detail .project-info>*{flex-shrink:0}
+}
+.poster-grid{column-gap:76px;row-gap:80px;justify-items:center}
+.exhibition-poster{width:90%}
+@media(max-width:700px){.poster-grid{gap:56px}.exhibition-poster{width:92%}}
+
+/* Equal-size navigation; the project return link keeps its muted tone. */
+.corner,.corner.home{font-size:28px;letter-spacing:normal}
+.corner.home{top:28px}
+@media(max-width:700px){.corner,.corner.home{font-size:21px}.corner.home{top:20px}}

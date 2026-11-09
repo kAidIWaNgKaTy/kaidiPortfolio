@@ -6,6 +6,7 @@ export async function loadProjects(){
  const slugs=new Set();
  for(const p of projects){
   if(!p.title||!p.slug||!p.cover||slugs.has(p.slug)||!p.formats?.length||!p.inquiries?.length||p.formats.some(v=>!formats.includes(v))||p.inquiries.some(v=>!themes.includes(v)))throw new Error('Check project content and category names.');
+  p.title=p.title.toUpperCase();
   slugs.add(p.slug);
  }
  return projects;

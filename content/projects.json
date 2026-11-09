@@ -5,7 +5,7 @@
     "slug": "touch-screen",
     "cover": "assets/images/touch-screen.jpg",
     "coverAlt": "TOUCH SCREEN installation documentation",
-    "coverVideo": "https://vimeo.com/1244913171",
+    "coverVideo": "https://vimeo.com/1245094165/ebb9db51b7",
     "videoAspectRatio": "3 / 2",
     "formats": [
       "Installation",
@@ -33,15 +33,16 @@
         "aspectRatio": "3 / 2"
       }
     ],
-    "coverVideoDuration": 33.34
+    "coverVideoDuration": 11.179,
+    "coverVideoAspectRatio": "4 / 3"
   },
   {
-    "title": "Überwachung",
+    "title": "ÜBERWACHUNG",
     "slug": "uberwachung",
     "year": "2025",
     "cover": "assets/images/UB_P1.jpeg",
     "coverAlt": "Überwachung: projected eyes in the installation space",
-    "coverVideo": "https://vimeo.com/1244989415",
+    "coverVideo": "https://vimeo.com/1245094164/39005c3eb5",
     "videoAspectRatio": "4 / 3",
     "formats": [
       "Installation"
@@ -53,6 +54,11 @@
     "description": "Überwachung connects two participants through a tracking system. One follows a dot on a monitor while their eyes are projected above the other. The installation explores the agency of both the person watching and the person being watched, placing them within a shared system that neither fully controls.",
     "credits": "",
     "media": [
+      {
+        "type": "image",
+        "src": "assets/images/UB_P2.jpeg",
+        "alt": "ÜBERWACHUNG installation documentation — second view"
+      },
       {
         "type": "vimeo",
         "src": "https://vimeo.com/1244989415",
@@ -66,15 +72,16 @@
         "aspectRatio": "16 / 9"
       }
     ],
-    "coverVideoDuration": 24.988716
+    "coverVideoDuration": 10.709,
+    "coverVideoAspectRatio": "4 / 3"
   },
   {
-    "title": "Well Done Chicken",
+    "title": "WELL DONE CHICKEN",
     "slug": "well-done-chicken",
     "year": "2025–2026",
     "cover": "assets/images/WDC_P1.JPG",
     "coverAlt": "Well Done Chicken audiovisual performance",
-    "coverVideo": "https://vimeo.com/1244998305",
+    "coverVideo": "https://vimeo.com/1245094166/affda8c204",
     "videoAspectRatio": "16 / 9",
     "formats": [
       "Installation",
@@ -108,6 +115,8 @@
         "src": "assets/images/WDC_P4.JPG",
         "alt": "Well Done Chicken documentation — image 4"
       }
-    ]
+    ],
+    "coverVideoDuration": 9.835,
+    "coverVideoAspectRatio": "4 / 3"
   }
 ]
