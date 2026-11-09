@@ -1,0 +1,31 @@
+{
+  "about": {
+    "paragraphs": [
+      "Kaidi makes things that move, react, watch, listen, and occasionally misunderstand.",
+      "Working somewhere between interactive installation, kinetic sculpture, and creative technology, kaidi gives machines unusual jobs and puts humans in equally unusual situations. Bodies become data. Data grows limbs. Machines develop habits. Humans become glitches.",
+      "Kaidi’s work is part experiment, part mischief, and part curiosity about the strange things we make, and the strange things they make of us."
+    ]
+  },
+  "contact": {
+    "email": "wkatyyy@gmail.com",
+    "instagram": "kaidikaty"
+  },
+  "exhibitions": [
+    {
+      "image": "assets/images/Exh_01.png",
+      "alt": "TOUCH SCREEN exhibition poster"
+    },
+    {
+      "image": "assets/images/Exh_02.png",
+      "alt": "Well Done Chicken exhibition poster"
+    },
+    {
+      "image": "assets/images/Exh_03.png",
+      "alt": "Somatic Awareness exhibition poster"
+    },
+    {
+      "image": "assets/images/Exh_04.jpg",
+      "alt": "Sound and Vision No. 5 exhibition poster"
+    }
+  ]
+}

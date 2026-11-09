@@ -1,0 +1,113 @@
+[
+  {
+    "title": "TOUCH SCREEN",
+    "year": "2026",
+    "slug": "touch-screen",
+    "cover": "assets/images/touch-screen.jpg",
+    "coverAlt": "TOUCH SCREEN installation documentation",
+    "coverVideo": "https://vimeo.com/1244913171",
+    "videoAspectRatio": "3 / 2",
+    "formats": [
+      "Installation",
+      "Sculpture"
+    ],
+    "inquiries": [
+      "Perception",
+      "Transformation"
+    ],
+    "description": "TOUCH SCREEN is a playable moiré installation that treats vibration itself as a way of making and unmaking an image. Four bass strings invite participants to pluck, touch, and experiment. Their vibrations activate motors that move one of two overlapping transparent sheets printed with concentric circles, continuously transforming the moiré patterns.\n\nThe work connects the tactile act of playing a string with the movement of an image, making perception something participants can influence through touch.",
+    "dimensions": "165 × 45 × 20 cm",
+    "materials": "",
+    "credits": "",
+    "media": [
+      {
+        "type": "vimeo",
+        "src": "https://vimeo.com/1244913171",
+        "title": "TOUCH SCREEN — video 1",
+        "aspectRatio": "3 / 2"
+      },
+      {
+        "type": "vimeo",
+        "src": "https://vimeo.com/1244915305",
+        "title": "TOUCH SCREEN — video 2",
+        "aspectRatio": "3 / 2"
+      }
+    ],
+    "coverVideoDuration": 33.34
+  },
+  {
+    "title": "Überwachung",
+    "slug": "uberwachung",
+    "year": "2025",
+    "cover": "assets/images/UB_P1.jpeg",
+    "coverAlt": "Überwachung: projected eyes in the installation space",
+    "coverVideo": "https://vimeo.com/1244989415",
+    "videoAspectRatio": "4 / 3",
+    "formats": [
+      "Installation"
+    ],
+    "inquiries": [
+      "Agency",
+      "Perception"
+    ],
+    "description": "Überwachung connects two participants through a tracking system. One follows a dot on a monitor while their eyes are projected above the other. The installation explores the agency of both the person watching and the person being watched, placing them within a shared system that neither fully controls.",
+    "credits": "",
+    "media": [
+      {
+        "type": "vimeo",
+        "src": "https://vimeo.com/1244989415",
+        "title": "Überwachung — video 1",
+        "aspectRatio": "4 / 3"
+      },
+      {
+        "type": "vimeo",
+        "src": "https://vimeo.com/1244989934/be2d485760",
+        "title": "Überwachung — video 2",
+        "aspectRatio": "16 / 9"
+      }
+    ],
+    "coverVideoDuration": 24.988716
+  },
+  {
+    "title": "Well Done Chicken",
+    "slug": "well-done-chicken",
+    "year": "2025–2026",
+    "cover": "assets/images/WDC_P1.JPG",
+    "coverAlt": "Well Done Chicken audiovisual performance",
+    "coverVideo": "https://vimeo.com/1244998305",
+    "videoAspectRatio": "16 / 9",
+    "formats": [
+      "Installation",
+      "Image"
+    ],
+    "inquiries": [
+      "Agency",
+      "Transformation"
+    ],
+    "description": "Well Done Chicken follows chickens through an endless quest for beauty and self-improvement, only to end up as higher-priced meals. Combining Unreal Engine animation with live-coded music, the work uses an absurd journey to question a culture of relentless self-optimization, where the pressure to improve overshadows the purpose of improvement itself.",
+    "credits": "In collaboration with Catherine R and Jenny T.",
+    "media": [
+      {
+        "type": "vimeo",
+        "src": "https://vimeo.com/1244998305",
+        "title": "Well Done Chicken — video",
+        "aspectRatio": "16 / 9"
+      },
+      {
+        "type": "image",
+        "src": "assets/images/WDC_P2.png",
+        "alt": "Well Done Chicken documentation — image 2"
+      },
+      {
+        "type": "image",
+        "src": "assets/images/WDC_P3.jpeg",
+        "alt": "Well Done Chicken documentation — image 3"
+      },
+      {
+        "type": "image",
+        "src": "assets/images/WDC_P4.JPG",
+        "alt": "Well Done Chicken documentation — image 4"
+      }
+    ]
+  }
+]
